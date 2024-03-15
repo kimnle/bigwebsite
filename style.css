@@ -64,7 +64,7 @@ main > * {
 
 main > img {
     height: 20dvh;
-    width: 50 dvw;
+    width: 50dvw;
     margin: 2em;
     background-color: var(--purple-heart-950);
     color: var(--purple-heart-100);
