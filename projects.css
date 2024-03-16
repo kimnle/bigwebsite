@@ -4,6 +4,7 @@
 }
 
 .projectPreview {
+    max-width: 65dvw;
     transition: 1s;
     display: flex;
     flex-direction: column;
@@ -38,4 +39,30 @@
     padding: 1em;
     border-radius: 2em;
     border: 2px solid white;
+}
+
+.contentRow {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0;
+}
+
+/* Desktop view */
+@media screen and (min-width: 600px) {
+    .contentRow {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    .projectPreview {
+        width: 30dvw;
+        margin: 1em;
+    }
 }
